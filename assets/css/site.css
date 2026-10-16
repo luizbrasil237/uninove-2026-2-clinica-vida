@@ -40,7 +40,7 @@ nav a { color: var(--vida-secundaria); text-decoration: none; font-weight: 600; 
   display: flex;
   flex-wrap: wrap;               /* deixa a fileira quebrar em tela estreita  */
   gap: 20px;                     /* espaço entre os cards, sem margem         */
-  justify-content: center;        /*centraliza a fileira no eixo principal    */
+  justify-content: 100px;        /*centraliza a fileira no eixo principal    */
   list-style: none;
   padding: 0;
 }
