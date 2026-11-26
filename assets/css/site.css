@@ -14,8 +14,17 @@ body {
   font-family: 'Segoe UI', Arial, sans-serif;
   font-size: 1rem;
   line-height: 1.6;
-  color:  #F4F7F6;
+  color: var(--vida-texto);
   background-color: var(--vida-fundo);
+}
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+main section {
+  margin-bottom: 32px;
 }
 header {
   background-color: var(--vida-primaria);
@@ -34,7 +43,9 @@ nav ul {
   
 }
 
-nav a { color: var(--vida-secundaria); text-decoration: none; font-weight: 600; }
+nav a { color: var(--vida-secundaria); 
+  text-decoration: none; 
+  font-weight: 600; }
 
 .lista-especialidades {          /* o contêiner: decide o arranjo do conjunto */
   display: flex;
