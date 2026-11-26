@@ -14,7 +14,6 @@ body {
   font-family: 'Segoe UI', Arial, sans-serif;
   font-size: 1rem;
   line-height: 1.6;
-<<<<<<< HEAD
   color: var(--vida-texto);
   background-color: var(--vida-fundo);
 }
@@ -27,11 +26,6 @@ main {
 main section {
   margin-bottom: 32px;
 }
-=======
-  color:  #F4F7F6;
-  background-color: var(--vida-fundo);
-}
->>>>>>> origin/feature/pagina-inicial
 header {
   background-color: var(--vida-primaria);
   color: var(--vida-fundo);
@@ -49,13 +43,9 @@ nav ul {
   
 }
 
-<<<<<<< HEAD
 nav a { color: var(--vida-secundaria); 
   text-decoration: none; 
   font-weight: 600; }
-=======
-nav a { color: var(--vida-secundaria); text-decoration: none; font-weight: 600; }
->>>>>>> origin/feature/pagina-inicial
 
 .lista-especialidades {          /* o contêiner: decide o arranjo do conjunto */
   display: flex;
@@ -63,11 +53,7 @@ nav a { color: var(--vida-secundaria); text-decoration: none; font-weight: 600; 
   gap: 20px;                     /* espaço entre os cards, sem margem         */
   justify-content: 100px;        /*centraliza a fileira no eixo principal    */
   list-style: none;
-<<<<<<< HEAD
   padding: 15px;
-=======
-  padding: 0;
->>>>>>> origin/feature/pagina-inicial
 }
 
 .lista-especialidades li {       /* o item: decide a própria caixa            */
@@ -88,7 +74,6 @@ th {
 
 td { padding: 12px 16px; border-bottom: 1px solid var(--vida-borda); }
 
-<<<<<<< HEAD
 .lista-especialidades {                    /* base: o celular */
   display: grid;
   grid-template-columns: 1fr;
@@ -98,15 +83,9 @@ td { padding: 12px 16px; border-bottom: 1px solid var(--vida-borda); }
 @media (min-width: 640px) {          /* daqui para cima, três colunas */
   .lista-especialidades { grid-template-columns: repeat(3, 1fr); }
 }
-=======
->>>>>>> origin/feature/pagina-inicial
 footer {
   background-color: var(--vida-texto);
   color: #FFFFFF;
   padding: 24px 32px;
   margin-top: 40px;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> origin/feature/pagina-inicial
